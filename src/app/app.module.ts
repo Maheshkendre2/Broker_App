@@ -11,12 +11,26 @@ import {MatNativeDateModule} from '@angular/material/core';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { FooterComponent } from './footer/footer.component';
 import { SectionComponent } from './section/section.component';
+import { SamplePageComponent } from './section/pages/sample-page/sample-page.component';
+import { HomeComponent } from './section/pages/home/home.component';
+import { AboutComponent } from './section/pages/about/about.component';
+import { ServicesComponent } from './section/pages/services/services.component';
+import { BuyComponent } from './section/pages/buy/buy.component';
+import { SellComponent } from './section/pages/sell/sell.component';
+import { RentComponent } from './section/pages/rent/rent.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    SectionComponent
+    SectionComponent,
+    SamplePageComponent,
+    HomeComponent,
+    AboutComponent,
+    ServicesComponent,
+    BuyComponent,
+    SellComponent,
+    RentComponent
   ],
   imports: [
     BrowserModule,
